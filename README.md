@@ -5,4 +5,4 @@ Team - Sriram, Aswatt, Gautham
 <br>
 Reason - Front-end hackathon by CSE society NIT Warangal 
 <br>
-2ns place 
+2nd place 
