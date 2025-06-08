@@ -1,4 +1,8 @@
-# SrikyzDemo
-My first proper repo
+# Srikyz Noobathon CaffeineSnot
+My first repo
 <br>
-Author - Srikyz
+Team - Sriram, Aswatt, Gautham
+<br>
+Reason - Front-end hackathon by CSE society NIT Warangal 
+<br>
+2ns place 
