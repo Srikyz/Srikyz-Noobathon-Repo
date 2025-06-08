@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Caveat+Brush&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  background-image: url(../../Images/Background/Backdrop.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#videoHub {
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Orbitron';
+  font-size: 40px;
+  font-weight: bold;
+  color: transparent;
+  background-image: linear-gradient(45deg, #0080ff, #00ffdd);
+  background-size: 100%;
+  background-clip: text;
+}
+
+.logo:hover {
+  color: #00e1ff; 
+  transition: color 0.s ease-in-out;
+}
+.full-bar {
+  display: flex;
+  width: 100%; 
+  height: 75px; 
+  background-color: rgb(48, 47, 47); 
+}
+
+.bar-element {
+  font-family: 'Bebas Neue';
+  font-size: 32px;
+  flex: 1;
+  text-align: center; 
+  color: white; 
+  padding: 20px; 
+}
+.bar-element:hover {
+  background-color: rgb(137, 137, 137);
+  transition: color 0.2s ease-in-out; 
+  color:black;
+  font-family: 'Bebas Neue';
+  font-size: 32px;
+};
+
+.video-grid {
+  display: flex; 
+  justify-content: center;
+  gap: 50px;
+  height: 400px;
+}
+
+.video-card {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Bebas Neue';
+  font-size: 22px;
+
+}
+
+.video-card iframe {
+  
+  margin-top: 20px;
+  width: 70%;
+  height: 500px; 
+  border-radius: 30px;
+
+}
+
+.material-icons {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .video-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="analytics.css">
+    <title>Statistics</title>
+
+</head>
+<body>
+    <div class="heading">
+        <a href="../index.html" class="material-icons">arrow_back_ios</a>
+        <h2 class="sub">ANALYTICS</h2>
+    </div>
+    <div class="analytics">
+        <div class ="chart">
+            <h2 style="color: white;">Trophies won!</h2>
+            <canvas id="myChart">
+
+            </canvas>
+        </div>
+
+        <div class="chart">
+            <h2 style="color: white;">Highest runs vs Year!</h2>
+             <canvas id="orangeCap"></canvas>
+        </div>
+        
+        <div class="chart">
+            <h2 style="color: white;">Highest wickets vs Years!</h2>
+            <canvas id="purpleCap"></canvas>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="trophies.js"></script>
+</body>
+</html>
